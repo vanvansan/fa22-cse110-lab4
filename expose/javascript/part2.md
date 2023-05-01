@@ -55,3 +55,13 @@ F. true, boolean(2) is true
 
 15. A strict equality operator === checks the equality without type conversion. For a non-strict check ==, it checks the equality after doing type conversion.
 
+17. result will be [2,4,6]. doSomething is passed to modifyArray as callback function. And in the for loop, every element in array is doubled as doSomething does.
+
+19. 
+```
+1
+4
+3
+2
+```
+
